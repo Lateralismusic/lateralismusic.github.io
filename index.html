@@ -1,30 +1,117 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:white;">
+<body style="background-color:black;">
 <center>
 
 
 <!--THIS IS THE CSS-->
 <style>
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
 table, th, td {
   border: 1px solid black;
-  padding: 15px;
+  padding: 1px;
   width: 869px
 }
+
 table.center {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3px;
 }
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+li {
+	float:left;
+	text-align: center;
+	margin-left: auto;
+	margin=right: auto;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  padding: 12px;
+  text-align:center;
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+iframe 
+{
+  overflow:hidden;
+}
+
+
+
+.table {
+	display: table;   
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 400px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+	
+	
+footer {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 10px;
+  text-align: center;
+  padding: 1px;
+  background-color: black;
+  color: white;
+}	
+
 </style>
 
 <!--HEADER TABLE-->
-<table style="table.center">
+<table >
   <tr>
-    <th>
-		<p style="text-align:left;">
-		<img src="LATERALISHEAVYINDUSTRIES_Small.png" alt="Lateralis">
+	<th style="width:50%">
+		<!--LOGO-->
+		<p style="text-align:left">
+		<img src="LATERALISHEAVYINDUSTRIES_Small.jpeg" alt="Lateralis">
 		</p>	
-		<hr>
+	</th>
+    <th>
+		<!--NAV BAR-->
+		<div class="table">
+		<ul id="horizontal-list">
+				<li><a href="blog.html" target="main_frame">UPDATES</a></li>
+				<li><a href="blog.html" target="main_frame">ABOUT</a></li>
+			  <li><a href="google.com" target="main_frame">GAMES</a></li>
+			  <li><a href="https://lateralis.bandcamp.com/">MUSIC</a></li>
+			  <li><a href="contact.asp"  target="main_frame">SOCIALS</a></li>
+			  <li><a href="about.asp"  target="main_frame">CONTACT</a></li>
+			  <li><a href="https://www.patreon.com/c/lateralis_?redirect=true">PATREON</a></li>
+		</ul>
+		</div>
+		</table>
+
+		 
 	</th>
 
   </tr>
@@ -34,30 +121,16 @@ table.center {
 <!--CONTENT TABLE-->
 <table>
   <tr>
- 	<th style = "width: 30%">
-		<p>
-		Navbar goes here
-		</p>
-	</th>
+	
+	
+	
     <th >
-	<p style="text-align:left;">
-	
-	
-	
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec malesuada ex. In hac habitasse platea dictumst. Morbi et convallis diam. Integer imperdiet est id bibendum finibus. In rhoncus mauris sed dui rutrum, id aliquet lorem blandit. Curabitur vel dolor a felis sodales semper nec non metus. In malesuada turpis et diam molestie aliquet. Nunc volutpat in nibh vel interdum.
-
-	Integer vulputate arcu lorem, nec venenatis nisl condimentum ac. Donec libero turpis, dignissim ac dolor sed, dignissim sagittis nisi. Praesent elementum laoreet ante, ut mattis odio hendrerit nec. Aliquam commodo rhoncus ullamcorper. Etiam commodo odio et malesuada sagittis. Cras luctus maximus mauris, et pellentesque sapien pharetra eget. Sed ac purus id diam pharetra suscipit in faucibus purus. Sed nec condimentum arcu. Quisque imperdiet sagittis orci non pretium. Aenean consectetur placerat ex, ut elementum neque. Aenean laoreet feugiat posuere.
-
-	Duis hendrerit ex nec auctor ornare. Suspendisse eget enim vel libero elementum rutrum. Ut non mattis libero, in ultricies massa. Proin elementum feugiat libero eu semper. Maecenas dictum ligula at egestas sollicitudin. Duis ipsum justo, tempus at vulputate vel, sagittis eu sem. Nulla elementum lacinia facilisis. Proin iaculis diam sagittis, ultricies velit a, vulputate dui. Quisque vel cursus dui. Pellentesque sed lectus magna.
-
-	Duis faucibus libero pharetra suscipit iaculis. Fusce tristique mauris nec lectus laoreet, a facilisis neque maximus. Aliquam condimentum nibh diam, at lobortis nibh commodo id. Aenean eget enim mollis, faucibus lectus ac, mollis erat. Morbi consequat volutpat diam, id euismod augue suscipit vel. Curabitur nec placerat magna. Curabitur blandit at ex ut cursus. Ut metus ex, mattis vitae erat a, pretium scelerisque massa. Nulla sem massa, consequat nec nulla vel, mattis vulputate urna. Nulla vestibulum consequat libero, in rhoncus eros egestas quis.
-
-	Morbi id feugiat quam, in mollis urna. Nam sit amet laoreet velit. Nullam faucibus sapien id commodo facilisis. Nunc dictum vehicula erat, eu gravida lacus. Nam malesuada, purus eu tincidunt scelerisque, ex quam feugiat diam, a convallis nulla quam et quam. Phasellus tincidunt consequat ipsum eu luctus. Curabitur eget orci justo.	
-		
-		
-		
-		</p>	
+	<hr>
+	<div style="width: 735px; overflow: hidden; margin:auto;">
+	<iframe name="main_frame" src="blog.html" seamless="seamless" style="" height="700" width="750" title="BLOG" frameBorder="0"></iframe>
+	</div>
 	</th>
+
 
 
   </tr>
@@ -68,4 +141,7 @@ table.center {
 
 </center>
 </body>
+<footer>
+  <p>Copyright Lateralis Heavy Industries 2025<br>
+</footer>
 </html>
